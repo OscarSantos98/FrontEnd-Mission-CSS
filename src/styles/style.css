@@ -1,16 +1,20 @@
 @font-face {
-    font-family: Delicious;
-    src: url('Delicious-Roman.otf');
+    font-family: BwModelica;
+    src: url('../assets/fonts/elements-bw-modelica-font-family-96W3JH-2017-02-23/Bw\ Modelica/otf/BwModelica-Medium.otf');
 }
 
 @font-face {
-    font-family: Delicious;
+    font-family: BwModelicaBold;
     font-weight: bold;
-    src: url('Delicious-Bold.otf');
+    src: url('../assets/fonts/elements-bw-modelica-font-family-96W3JH-2017-02-23/Bw\ Modelica/otf/BwModelica-ExtraBold.otf');
 }
 
-* {
-    font-family: ;
+body {
+    font-family: BwModelica;
+}
+
+h1 {
+    font-family: BwModelicaBold;
 }
 
 #schedule {
@@ -18,10 +22,22 @@
 }
 
 #schedule-form {
-    margin-top: 25rem;
+    margin-top: 30rem;
     position: absolute;
 }
 
 .pd-left {
     padding-left: 5rem;
+}
+
+.my-primary-color {
+    color: rgb(31, 62, 114);
+}
+
+.my-secondary-color {
+    color: rgb(55, 87, 213);
+}
+
+.form-group {
+    padding: 1rem;
 }
