@@ -41,3 +41,8 @@ h1 {
 .form-group {
     padding: 1rem;
 }
+
+.my-btn-primary {
+    background-color: rgb(55, 87, 213);
+    box-shadow: 0 1.5px 6px 0 #333333, 0 1px 3px 0 #333333;
+}
