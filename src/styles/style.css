@@ -17,8 +17,16 @@ h1 {
     font-family: BwModelicaBold;
 }
 
-#schedule {
+.margin-top-high {
     margin-top: 5rem;
+}
+
+.margin-top-med {
+    margin-top: 3rem;
+}
+
+.margin-top-low {
+    margin-top: 1rem;
 }
 
 #schedule-form {
@@ -27,7 +35,7 @@ h1 {
 }
 
 .pd-left {
-    padding-left: 5rem;
+    padding-left: 6rem;
 }
 
 .my-primary-color {
@@ -38,6 +46,10 @@ h1 {
     color: rgb(55, 87, 213);
 }
 
+label {
+    display: block;
+}
+
 .form-group {
     padding: 1rem;
 }
@@ -45,4 +57,8 @@ h1 {
 .my-btn-primary {
     background-color: rgb(55, 87, 213);
     box-shadow: 0 1.5px 6px 0 #333333, 0 1px 3px 0 #333333;
+}
+
+#form-btn {
+    margin-top: 1.4rem;
 }
