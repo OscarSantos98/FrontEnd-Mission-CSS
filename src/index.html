@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vaccination landing page">
+    <meta name="author" content="Oscar Santos">
+    <!-- Add bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Add font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <!-- Add custom styles -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Vaccination</title>
+</head>
+
+<body>
+    <!-- Vaccination campaign landing page -->
+    <!-- NavMenu with Database, Education, News, Regulation and Hoax Buster -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Vaccination</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Regulation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hoax Buster</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- End NavMenu -->
+    <!-- Main content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 jumbotron bg-white pd-left">
+                <h1 class="display-4 my-primary-color">Fight Virus With Vaccines</h1>
+                <p class="lead">Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</p>
+
+                <div class="container">
+                    <hr class="my-4">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <i class="fas fa-hand-holding-heart text-warning"></i>
+                            <span>Best Protection</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fas fa-hand-holding-heart text-warning"></i>
+                            <span>Selected Vaccines</span>
+                        </li>
+                    </ul>
+                    <!-- Schedule your vaccinations -->
+                    <div id="schedule">
+                        <p><i class="fas fa-hand-holding-heart text-warning"></i>
+                            <span>Schedule your vaccinations</span></p>
+                    </div>
+                    <!-- End Schedule your vaccinations -->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/img/vaccination.jpg" alt="Vaccination" class="img-fluid">
+            </div>
+            <!-- Schedule form: location, date and vaccine type -->
+            <div class="col-md-8 offset-1 shadow p-3 mb-5 bg-white rounded pd-left" id="schedule-form">
+                <h3 class="my-primary-color">Schedule your vaccination</h2>
+                    <form action="" class="form-inline">
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <input type="text" class="form-control" id="location" placeholder="Location">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date</label>
+                            <input type="date" class="form-control" id="date" placeholder="Date">
+                        </div>
+                        <div class="form-group">
+                            <label for="vaccine">Vaccine Type</label>
+                            <select class="form-control" id="vaccine">
+                            <option>Pfizer</option>
+                            <option>Moderna</option>
+                            <option>AstraZeneca</option>
+                            <option>Sputnik</option>
+                        </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
+        </div>
+    </div>
+    <!-- End Main content -->
+    <!-- Partners -->
+    <!-- Reasons to get vaccinated -->
+    <!-- Preparations before Vaccine -->
+    <!-- Emergency contact -->
+    <!-- Footer with About, Company and Support links -->
+
+    <!-- Add boostrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
