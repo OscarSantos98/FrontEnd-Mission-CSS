@@ -60,6 +60,10 @@ p.beforetitle {
     padding-right: 6rem;
 }
 
+.pd-top {
+    padding-top: 3rem;
+}
+
 .my-primary-color {
     color: rgb(31, 62, 114);
 }
@@ -109,4 +113,18 @@ input[type=date],
 
 .card:hover .card-title {
     color: rgb(55, 87, 213);
+}
+
+a.button {
+    background-color: rgb(241, 245, 255);
+    /* align button to the center */
+    display: block;
+    margin: 0 auto;
+    color: rgb(55, 87, 213);
+    border: none;
+    padding: 15px 25px;
+}
+
+footer {
+    background-color: rgb(241, 245, 255);
 }
