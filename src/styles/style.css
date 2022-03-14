@@ -24,6 +24,14 @@ h4 {
     color: rgb(31, 62, 114);
 }
 
+h5 {
+    color: rgb(31, 62, 114);
+}
+
+p {
+    color: rgb(136, 147, 167);
+}
+
 p.beforetitle {
     margin-top: 2rem;
 }
@@ -56,12 +64,25 @@ p.beforetitle {
     padding-left: 6rem;
 }
 
+.pd-left-high {
+    padding-left: 28rem;
+}
+
+.pd-navbar-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .pd-right {
     padding-right: 6rem;
 }
 
 .pd-top {
     padding-top: 3rem;
+}
+
+.pd-navbar {
+    padding: 3rem 0 3rem 6rem;
 }
 
 .my-primary-color {
@@ -127,4 +148,12 @@ a.button {
 
 footer {
     background-color: rgb(241, 245, 255);
+}
+
+footer a {
+    color: rgb(136, 147, 167);
+}
+
+footer li {
+    margin-top: 1rem;
 }
